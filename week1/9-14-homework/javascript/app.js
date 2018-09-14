@@ -14,26 +14,44 @@
 ///////////////
 
 //// 2. Palindrome again
-const checkName = (str) => {
+// const checkName = (str) => {
 
-	let change = str.toUpperCase();
+// 	let change = str.toUpperCase();
 
-	str = str.split("").reverse("").join("").toUpperCase();
+// 	str = str.split("").reverse("").join("").toUpperCase();
 
-	if(change === str)
+// 	if(change === str)
+// 	{
+// 		return true;
+// 	}
+
+// 	else {
+// 		return false;
+// 	}
+
+// }
+
+// console.log(checkName('Anna'));
+
+//////////////////////
+
+//// 3. Digit Sum
+
+const sumDigit = (num) =>{
+	num = num.toString().split("");
+
+	let sum = 0;
+
+	for(let i = 0; i < num.length; i++)
 	{
-		return true;
+		sum += Number(num[i]);
 	}
 
-	else {
-		return false;
-	}
+	return sum;
 
 }
 
-console.log(checkName('Anna'));
-
-
+console.log(sumDigit(42));
 
 
 
