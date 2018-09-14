@@ -14,22 +14,24 @@
 ///////////////
 
 //// 2. Palindrome again
+const checkName = (str) => {
 
-// const checkPalindrome = (string) =>
-// {
-// 	if(string === string.split("").reverse("").join("")){
-// 		return true;
-// 	}
-// 	else{
-// 		return false;
-// 	}
-// }
+	let change = str.toUpperCase();
 
-// console.log(checkPalindrome('jawaj'));
+	str = str.split("").reverse("").join("").toUpperCase();
 
+	if(change === str)
+	{
+		return true;
+	}
 
+	else {
+		return false;
+	}
 
+}
 
+console.log(checkName('Anna'));
 
 
 
