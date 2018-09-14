@@ -32,3 +32,5 @@
 // 		console.log(array[Math.floor(Math.random()*array.length)]);
 // 	}
 // }
+
+
