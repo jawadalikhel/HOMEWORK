@@ -37,21 +37,33 @@
 
 //// 3. Digit Sum
 
-const sumDigit = (num) =>{
-	num = num.toString().split("");
+// const sumDigit = (num) =>{
+// 	num = num.toString().split("");
 
-	let sum = 0;
+// 	let sum = 0;
 
-	for(let i = 0; i < num.length; i++)
-	{
-		sum += Number(num[i]);
-	}
+// 	for(let i = 0; i < num.length; i++)
+// 	{
+// 		sum += Number(num[i]);
+// 	}
 
-	return sum;
+// 	return sum;
+
+// }
+
+// console.log(sumDigit(42));
+
+//////////////////////
+
+//// 4. Pythagoras
+
+const calculateSide = (sideA, sideB) => {
+
+	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
 }
 
-console.log(sumDigit(42));
+console.log(calculateSide(8, 6));
 
 
 
