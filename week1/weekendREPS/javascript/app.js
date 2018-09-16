@@ -121,20 +121,37 @@ console.log('js is working here!');
 
 ////////////////////////////////
 
-// C. Give me Five
+// // C. Give me Five
+// // 1.
+// for(let i =1; i <= 100; i++)
+// {
+// 	if(i % 5 === 0){
+// 		console.log('I found a ' + i + " High five!");
+
+// 	}
+
+// 	if(i % 3 === 0){
+// 			console.log('I found a ' + i + ". Three is a crowd");
+// 		}
+// }
+
+////////////////////////////////////////////////////////////
+
+// D. Saving Account
 // 1.
-for(let i =1; i <= 100; i++)
+sum = 0;
+for(let i =1; i <= 10; i++)
 {
-	if(i % 5 === 0){
-		console.log('I found a ' + i + " High five!");
-
-	}
-
-	if(i % 3 === 0){
-			console.log('I found a ' + i + ". Three is a crowd");
-		}
+	sum += i;
 }
-
+console.log('Bank Balance: $' + sum);
+// 2.
+sum2 = 0;
+for(let j = 0; j<= 100; j++)
+{
+	sum2 += j;
+}
+console.log('Bank Balance: $' + (sum2 * 2));
 
 
 
