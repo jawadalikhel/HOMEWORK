@@ -88,27 +88,36 @@ console.log('js is working here!');
 
 ////////////////////   II. Loops    //////////////
 
-// A. The basics
+// // A. The basics
 
-for(let i=0; i <= 10; i++)
-{
-	console.log(i);
-}
+// for(let i=0; i <= 10; i++)
+// {
+// 	console.log(i);
+// }
 
-for(let j = 10; j <= 400; j++)
-{
-	console.log(j);
-}
+// for(let j = 10; j <= 400; j++)
+// {
+// 	console.log(j);
+// }
 
-for(let k = 12; k <= 4000; k++)
-{
-	console.log(k);
-	k+=2;
-}
+// for(let k = 12; k <= 4000; k++)
+// {
+// 	console.log(k);
+// 	k+=2;
+// }
 
 /////////////////////////////////////////////
 
+// B. Get even
 
+for(let i = 1; i <= 100; i++)
+{
+	if((i % 2) === 0){
+		console.log(i)
+		i++;
+	}
+
+}
 
 
 
