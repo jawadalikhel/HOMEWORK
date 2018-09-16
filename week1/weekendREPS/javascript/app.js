@@ -65,14 +65,25 @@ console.log('js is working here!');
 /////////////////////////////////////////////
 //// D. Farm
 
-let animal = 'cow';
-if(animal === 'cow')
-{
-	console.log('mooooooo');
-}
+// let animal = 'cow';
+// if(animal === 'cow')
+// {
+// 	console.log('mooooooo');
+// }
 
+// else{
+// 	console.log('Hey! You\'re not a cow');
+// }
+
+//////////////////////////////////////
+
+let age = 16;
+if(age >= 16)
+{
+	console.log('Here are the keys.');
+}
 else{
-	console.log('Hey! You\'re not a cow');
+	console.log('Sorry, you\'re too young.');
 }
 
 
