@@ -137,21 +137,38 @@ console.log('js is working here!');
 
 ////////////////////////////////////////////////////////////
 
-// D. Saving Account
-// 1.
+// // D. Saving Account
+// // 1.
+// sum = 0;
+// for(let i =1; i <= 10; i++)
+// {
+// 	sum += i;
+// }
+// console.log('Bank Balance: $' + sum);
+// // 2.
+// sum2 = 0;
+// for(let j = 0; j<= 100; j++)
+// {
+// 	sum2 += j;
+// }
+// console.log('Bank Balance: $' + (sum2 * 2));
+
+/////////////////////////////////////////////////
+
+// E. Multiples of 3 and 5
 sum = 0;
-for(let i =1; i <= 10; i++)
+for( let i = 1; i < 1000; i++)
 {
-	sum += i;
+	if(i % 3 === 0 || i % 5 === 0)
+	{
+		console.log(i);
+		sum += i;
+	}
 }
-console.log('Bank Balance: $' + sum);
-// 2.
-sum2 = 0;
-for(let j = 0; j<= 100; j++)
-{
-	sum2 += j;
-}
-console.log('Bank Balance: $' + (sum2 * 2));
+
+console.log(sum);
+
+
 
 
 
