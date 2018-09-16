@@ -22,3 +22,50 @@ console.log('js is working here!');
 // 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 // 	- planning : 75-90%
 // 	- typing code: 10-25%
+
+//////////////////////////////////////////////
+
+// B. Strings
+// 1.
+let firstVariable = 'Hello World';
+firstVariable = 10;
+console.log(firstVariable);
+
+secondVariable = firstVariable;
+console.log(secondVariable);
+
+secondVariable = 'Changing the secondVariable to this string';
+console.log(secondVariable);
+
+// 2. 
+let yourName = 'Jawad Alikhel';
+console.log('Hello, my name is ' + yourName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
