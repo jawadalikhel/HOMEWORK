@@ -76,15 +76,39 @@ console.log('js is working here!');
 // }
 
 //////////////////////////////////////
+// // E. Driver's Ed
+// let age = 16;
+// if(age >= 16)
+// {
+// 	console.log('Here are the keys.');
+// }
+// else{
+// 	console.log('Sorry, you\'re too young.');
+// }
 
-let age = 16;
-if(age >= 16)
+////////////////////   II. Loops    //////////////
+
+// A. The basics
+
+for(let i=0; i <= 10; i++)
 {
-	console.log('Here are the keys.');
+	console.log(i);
 }
-else{
-	console.log('Sorry, you\'re too young.');
+
+for(let j = 10; j <= 400; j++)
+{
+	console.log(j);
 }
+
+for(let k = 12; k <= 4000; k++)
+{
+	console.log(k);
+	k+=2;
+}
+
+/////////////////////////////////////////////
+
+
 
 
 
