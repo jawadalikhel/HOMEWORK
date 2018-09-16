@@ -57,13 +57,23 @@
 
 //// 4. Pythagoras
 
-const calculateSide = (sideA, sideB) => {
+// const calculateSide = (sideA, sideB) => {
 
-	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// 	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
-}
+// }
 
-console.log(calculateSide(8, 6));
+// console.log(calculateSide(8, 6));
+
+/////////////////////////////
+
+//// 5. Sum Array
+// const sumArray = (array[]) =>{
+
+// 	for(let i = 0; i < array.length)
+// }
+
+// console.log(sumArray([1,2,3,4,5,6]))
 
 
 
