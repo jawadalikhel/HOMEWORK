@@ -108,21 +108,32 @@ console.log('js is working here!');
 
 /////////////////////////////////////////////
 
-// B. Get even
+// // B. Get even
 
-for(let i = 1; i <= 100; i++)
+// for(let i = 1; i <= 100; i++)
+// {
+// 	if((i % 2) === 0){
+// 		console.log(i + ' <-- is an even number');
+// 		i++;
+// 	}
+
+// }
+
+////////////////////////////////
+
+// C. Give me Five
+// 1.
+for(let i =1; i <= 100; i++)
 {
-	if((i % 2) === 0){
-		console.log(i + ' <-- is an even number');
-		i++;
+	if(i % 5 === 0){
+		console.log('I found a ' + i + " High five!");
+
 	}
 
+	if(i % 3 === 0){
+			console.log('I found a ' + i + ". Three is a crowd");
+		}
 }
-
-
-
-
-
 
 
 
