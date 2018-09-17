@@ -211,26 +211,37 @@ console.log('js is working here!');
 
 //////////////////////////////////////////////
 
-// E. Mix It Up
-const myArray = [5, 10, 500, 20];
-// 1. adding 2 strings to myArray
-myArray.push('Egon');
-myArray.push('Dawaj');
-console.log(myArray);
-// 2. removing the element 5 from array
-let removed = myArray.splice(0, 1)
-console.log(myArray);
-// 3. Adding an element to the beginning of the array
-myArray.unshift('Bob Marley');
-console.log(myArray);
-// 4. remove a string from the end of the array.
-let remove = myArray.splice(4,1);
-console.log(myArray);
-// 4. Revere the array
-let reverse = myArray.reverse();
-console.log(myArray);
+// // E. Mix It Up
+// const myArray = [5, 10, 500, 20];
+// // 1. adding 2 strings to myArray
+// myArray.push('Egon');
+// myArray.push('Dawaj');
+// console.log(myArray);
+// // 2. removing the element 5 from array
+// let removed = myArray.splice(0, 1)
+// console.log(myArray);
+// // 3. Adding an element to the beginning of the array
+// myArray.unshift('Bob Marley');
+// console.log(myArray);
+// // 4. remove a string from the end of the array.
+// let remove = myArray.splice(4,1);
+// console.log(myArray);
+// // 4. Revere the array
+// let reverse = myArray.reverse();
+// console.log(myArray);
 
 ///////////////////////////////
+
+// F. Biggie Smalls 
+let number = 230;
+if(number < 100){
+	console.log('Little number');
+}
+else{
+	console.log('big number');
+}
+
+
 
 
 
