@@ -155,18 +155,30 @@ console.log('js is working here!');
 
 /////////////////////////////////////////////////
 
-// E. Multiples of 3 and 5
-sum = 0;
-for( let i = 1; i < 1000; i++)
-{
-	if(i % 3 === 0 || i % 5 === 0)
-	{
-		console.log(i);
-		sum += i;
-	}
-}
+// // E. Multiples of 3 and 5
+// sum = 0;
+// for( let i = 1; i < 1000; i++)
+// {
+// 	if(i % 3 === 0 || i % 5 === 0)
+// 	{
+// 		console.log(i);
+// 		sum += i;
+// 	}
+// }
 
-console.log(sum);
+// console.log(sum);
+
+//////////////////////////////////////////////
+
+/////////////////////////  III. Arrays & Control flow/////////////////
+
+//// A. Talk about it:
+1. What are the things in an array called?
+-Elements.
+Do Arrays guarantee those things will be in order?
+- yes
+What real-life thing could you model with an array?
+- personal infor with: name, age, address, etc..
 
 
 
