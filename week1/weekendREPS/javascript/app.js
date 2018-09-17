@@ -183,8 +183,21 @@ console.log('js is working here!');
 ////////////////////////////////////
 
 //// B. Easy Does It
-const quotes = ['To succeed in life, you need three things:', 'wishbone', 'backbone', 'funny bone'];
-console.log(quotes);
+// const quotes = ['To succeed in life, you need three things:', 'wishbone', 'backbone', 'funny bone'];
+// console.log(quotes);
+
+//////////////////////////////////////////
+
+// C. Accessing elements 
+const randomThings = [1, 10, 'Hello', true];
+
+// 1. to access the first element log the array and inside put the location of the elemetn
+console.log(randomThings[0]);
+
+randomThings[2] = 'World';
+console.log(randomThings[2]);
+
+//////////////////////////////////////////
 
 
 
