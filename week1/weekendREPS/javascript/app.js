@@ -186,19 +186,30 @@ console.log('js is working here!');
 // const quotes = ['To succeed in life, you need three things:', 'wishbone', 'backbone', 'funny bone'];
 // console.log(quotes);
 
-//////////////////////////////////////////
+// //////////////////////////////////////////
 
-// C. Accessing elements 
-const randomThings = [1, 10, 'Hello', true];
+// // C. Accessing elements 
+// const randomThings = [1, 10, 'Hello', true];
 
-// 1. to access the first element log the array and inside put the location of the elemetn
-console.log(randomThings[0]);
+// // 1. to access the first element log the array and inside put the location of the elemetn
+// console.log(randomThings[0]);
 
-randomThings[2] = 'World';
-console.log(randomThings[2]);
+// randomThings[2] = 'World';
+// console.log(randomThings[2]);
 
-//////////////////////////////////////////
+// //////////////////////////////////////////
 
+// D. Change Values
+const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
+// 1. What would you write to access the 3rd element of the array?
+console.log(ourClass[3]);
+//2.
+ourClass[4] = 'Octocat';
+//3. 
+ourClass.push('Cloud City');
+console.log(ourClass);
+
+//////////////////////////////////////////////
 
 
 
