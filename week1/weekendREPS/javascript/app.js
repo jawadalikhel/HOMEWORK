@@ -340,12 +340,18 @@ console.log('js is working here!');
 
 ////////////////////////////////////////////////
 
-// B. printCool
+// // B. printCool
+// const printCool = (name) =>{
+// 	return (name + ' is cool');
+// }
+// console.log(printCool('Captin Reynolds'));
 
-const printCool = (name) =>{
-	return (name + ' is cool');
+////////////////////////////////////////////////
+// c. calculateCube
+const calculateCube = (num) =>{
+	return ((num * num * num));
 }
-console.log(printCool('Captin Reynolds'));
+console.log(calculateCube(5));
 
 
 
