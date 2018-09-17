@@ -172,14 +172,19 @@ console.log('js is working here!');
 
 /////////////////////////  III. Arrays & Control flow/////////////////
 
-//// A. Talk about it:
-1. What are the things in an array called?
--Elements.
-Do Arrays guarantee those things will be in order?
-- yes
-What real-life thing could you model with an array?
-- personal infor with: name, age, address, etc..
+// //// A. Talk about it:
+// 1. What are the things in an array called?
+// -Elements.
+// Do Arrays guarantee those things will be in order?
+// - yes
+// What real-life thing could you model with an array?
+// - personal infor with: name, age, address, etc..
 
+////////////////////////////////////
+
+//// B. Easy Does It
+const quotes = ['To succeed in life, you need three things:', 'wishbone', 'backbone', 'funny bone'];
+console.log(quotes);
 
 
 
