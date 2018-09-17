@@ -199,17 +199,48 @@ console.log('js is working here!');
 
 // //////////////////////////////////////////
 
-// D. Change Values
-const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
-// 1. What would you write to access the 3rd element of the array?
-console.log(ourClass[3]);
-//2.
-ourClass[4] = 'Octocat';
-//3. 
-ourClass.push('Cloud City');
-console.log(ourClass);
+// // D. Change Values
+// const ourClass = ['Salty', 'Zoom', 'Sardine', 'Slack', 'Github'];
+// // 1. What would you write to access the 3rd element of the array?
+// console.log(ourClass[3]);
+// //2.
+// ourClass[4] = 'Octocat';
+// //3. 
+// ourClass.push('Cloud City');
+// console.log(ourClass);
 
 //////////////////////////////////////////////
+
+// E. Mix It Up
+const myArray = [5, 10, 500, 20];
+// 1. adding 2 strings to myArray
+myArray.push('Egon');
+myArray.push('Dawaj');
+console.log(myArray);
+// 2. removing the element 5 from array
+let removed = myArray.splice(0, 1)
+console.log(myArray);
+// 3. Adding an element to the beginning of the array
+myArray.unshift('Bob Marley');
+console.log(myArray);
+// 4. remove a string from the end of the array.
+let remove = myArray.splice(4,1);
+console.log(myArray);
+// 4. Revere the array
+let reverse = myArray.reverse();
+console.log(myArray);
+
+///////////////////////////////
+
+
+
+
+
+
+
+
+
+
 
 
 
