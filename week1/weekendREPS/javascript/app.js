@@ -232,13 +232,27 @@ console.log('js is working here!');
 
 ///////////////////////////////
 
-// F. Biggie Smalls 
-let number = 230;
-if(number < 100){
-	console.log('Little number');
+// // F. Biggie Smalls 
+// let number = 230;
+// if(number < 100){
+// 	console.log('Little number');
+// }
+// else{
+// 	console.log('big number');
+// }
+
+//////////////////////////////////////
+// G. Monkey in the middle
+let number = 7.5;
+
+if(number < 5){
+	console.log('little number');
+}
+else if(number > 10){
+	console.log('big number');
 }
 else{
-	console.log('big number');
+	console.log('monkey');
 }
 
 
