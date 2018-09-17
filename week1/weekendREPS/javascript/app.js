@@ -331,14 +331,21 @@ console.log('js is working here!');
 
 /////////////////////////    IV. Functions
 
-// A. printGreeting
-const printGreeting = (name) => {
-	return name;
+// // A. printGreeting
+// const printGreeting = (name) => {
+// 	return 'Hello there, ' + name;
+// }
+
+// console.log(printGreeting('Slimer'));
+
+////////////////////////////////////////////////
+
+// B. printCool
+
+const printCool = (name) =>{
+	return (name + ' is cool');
 }
-
-console.log(printGreeting('Slimer'));
-
-
+console.log(printCool('Captin Reynolds'));
 
 
 
