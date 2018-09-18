@@ -347,12 +347,46 @@ console.log('js is working here!');
 // console.log(printCool('Captin Reynolds'));
 
 ////////////////////////////////////////////////
-// c. calculateCube
-const calculateCube = (num) =>{
-	return ((num * num * num));
-}
-console.log(calculateCube(5));
+//// *********************
+// // c. calculateCube
+// const calculateCube = (num) =>{
+// 	return ((num * num * num));
+// }
+// console.log(calculateCube(5));
 
+////////////////////////////////////////////////
+
+//// *********************************
+// // D. isVowel
+// const isVowel = (letter) =>{
+// 	const vowel = ['a', 'e', 'i', 'o', 'u'];
+
+// 	let newVowels = vowel.toUpperCase();
+
+// 	for(let i = 0; i <= vowel.length; i++)
+// 	{
+// 		if(letter === vowel[i]){
+// 			return (letter + ' is a vowel.');
+// 		}
+
+// 		else{
+// 			return (letter + ' is not a vowel');
+// 		}
+// 	}
+
+// }
+
+// console.log(isVowel('e'));
+
+////////////////////////////////////////////////
+const getTwoLengths = (word1, word2) =>{
+	let 
+	for (let i =0; i <= word1.length; i++)
+	{
+		return word1[i];
+	}
+}
+console.log(getTwoLengths('Hank', 'Hippopopalous'));
 
 
 
