@@ -30,3 +30,41 @@ console.log(obj2.fullname());
 //Combine objects, arrays, and functions more than one level deep
 
 // 1. 
+const obj3 = {
+	animal1: 'dog',
+	animal2: 'cat',
+	animal3: 'tiger'
+}
+
+const returnOBj = (obj3) =>{
+	return obj3;
+}
+returnOBj();
+console.log(returnOBj(obj3.animal3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
