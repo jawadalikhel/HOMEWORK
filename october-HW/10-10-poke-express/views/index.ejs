@@ -4,19 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  
 </head>
 
 <body>
 
   <h1>Pokemon List</h1>
 
-  <ul class="pokemon">
+  <ul>
   	<% for(let i = 0; i < poke.length; i++){ %>
   	<li>
-  		<%= poke[i].name %>
+  		I am <%= poke[i].name %>
   		<img src="<%= poke[i].img %>">
+  		<button>Pokemon Info</button>
   	</li> 
   	<% } %>
+      
+    </form>
   </ul>
 
 

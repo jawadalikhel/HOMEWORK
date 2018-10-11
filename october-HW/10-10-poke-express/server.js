@@ -1,27 +1,49 @@
 const express = require('express');
-const bodyParser = require('body-parser')
 const app = express();
-
 const Pokemon = require('./module/pokemon');
+
+const bodyParser = require('body-parser')
 
 app.get('/', (req, res) =>{
 	res.send('hey hey heyyy');
 })
 
 // app.get('/pokemon', (req, res) =>{
-// 	res.send(Pokemon);
-// })
+// 	res.send('hey hey hey working not tooo hard');
+// });
 
 
-app.get('/pokemon/show', (req, res) =>{
-	res.render('show.ejs')
-})
-
-app.get('/pokemon',(req, res) =>{
+app.get('/pokemon', (req, res) =>{
 	res.render('index.ejs', {
 		poke: Pokemon
 	});
 });
+
+
+app.get('/pokemon/:index', (req, res) =>{
+	res.render('show.ejs', {
+		poke: Pokemon[req.params.index]
+	})
+
+});
+
+// app.get('/pokemon/:id/', (req, res) =>{
+// 	res.render('show.ejs', {
+// 		showPoke: 
+
+// 	});
+// });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
