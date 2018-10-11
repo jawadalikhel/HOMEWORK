@@ -12,10 +12,11 @@
   <h1>Pokemon List</h1>
 
   <ul>
-  	<% for(let i = 0; i < poke.length; i++){ %>
+  	<% for(let i = 0; i < pokemon.length; i++){ %>
   	<li>
-  		I am <%= poke[i].name %>
-  		<img src="<%= poke[i].img %>">
+    
+      Hi i am<a href="/pokemon/<%= i %>"><%= pokemon[i].name %></a>
+  		<img src="<%= pokemon[i].img %>">
   		<button>Pokemon Info</button>
   	</li> 
   	<% } %>

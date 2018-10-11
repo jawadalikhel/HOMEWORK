@@ -15,14 +15,14 @@ app.get('/', (req, res) =>{
 
 app.get('/pokemon', (req, res) =>{
 	res.render('index.ejs', {
-		poke: Pokemon
+		pokemon: Pokemon
 	});
 });
 
 
 app.get('/pokemon/:index', (req, res) =>{
 	res.render('show.ejs', {
-		poke: Pokemon[req.params.index]
+		pokemon: Pokemon[req.params.index]
 	})
 
 });
